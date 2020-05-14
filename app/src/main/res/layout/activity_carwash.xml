@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carwash">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose car type  "
+        android:textSize="23dp"
+        android:layout_margin="8dp">
+    </TextView>
+    <RadioGroup
+        android:id="@+id/radio1"
+        android:layout_below="@+id/txt1"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sedan"></RadioButton>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hatchpack"></RadioButton>
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUV"></RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:fontFamily="sans-serif"
+
+        android:layout_below="@id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Choose pick up location"
+        android:textSize="23dp"></TextView>
+
+    <Button
+        android:id="@+id/locbtn"
+        android:layout_below="@+id/txt2"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_bg"
+        android:text="Get current location"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txt3"
+        android:layout_below="@+id/locbtn"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="sans-serif"
+
+        android:text="OR"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_below="@id/txt3"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif"
+
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_margin="14dp"
+        android:hint="Enter your address"></EditText>
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_below="@id/ed1"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif"
+
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_margin="14dp"
+        android:hint="Description"></EditText>
+
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_below="@id/ed2"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="sans-serif"
+
+
+        android:textSize="15dp"
+        android:text="Note :Usual charges for car wash is Rs.300. However it may vary with actual billing."
+        android:layout_height="wrap_content"></TextView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_margin="15dp"
+        android:text="Submit"
+        android:textSize="22dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"></Button>
+
+</RelativeLayout>

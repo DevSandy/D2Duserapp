@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".privacy_policy">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textAlignment="textStart"
+        android:textStyle="normal"
+        android:text= " AccelStack built the D2D app as a commercial app. This SERVICE is provided by AccelStack and is intended for use as is.\n This page is used to inform website visitors regarding our policies with the collection, use, and
+    disclosure of Personal Information if anyone decided to use our Service.\nIf you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and
+    improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.\n The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions ,which is accessible at D2D, unless otherwise defined in this Privacy Policy."
+        android:singleLine="false"
+        android:textSize="15dp"></TextView>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text=" Information Collection and Use "
+      android:textStyle="bold"
+      android:textSize="20dp"
+      android:layout_margin="8dp">
+  </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:text=" For a better experience while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to add whatever else you collect here, e.g. users name , address , location , pictures.\n
+	The information that we request is retained on your device and is not collected by us in any way will be retained by us and used as described in this privacy policy.The app does use third party services that may collect information used to identify you.\n">
+</TextView>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:text=" Log Data"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:text=" We want to inform you that whenever you use our Service, in case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data
+    may include information such as your devices’s Internet Protocol (“IP”) address, device name, operating system version, configuration of the app when utilising our Service, the time and date
+   of your use of the Service, and other statistics."></TextView>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

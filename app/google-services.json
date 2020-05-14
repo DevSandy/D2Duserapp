@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "417437214034",
+    "firebase_url": "https://d2duserapp.firebaseio.com",
+    "project_id": "d2duserapp",
+    "storage_bucket": "d2duserapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417437214034:android:96be368c6171166b84868b",
+        "android_client_info": {
+          "package_name": "com.iscript.d2duserapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417437214034-f62f5dhnm2u7664dj8cksq4mqpbccof8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iscript.d2duserapp",
+            "certificate_hash": "aa6e13df397b101c39a7d962814aee16a371648f"
+          }
+        },
+        {
+          "client_id": "417437214034-5k6odvltavgqrcl299kajbi1kjcvperi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iscript.d2duserapp",
+            "certificate_hash": "8d89d889463ce4214379bf827345278d2d52b747"
+          }
+        },
+        {
+          "client_id": "417437214034-krm3vkocjg1k70u18cca7i836dalon7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoXPOvYWSagYiVM58JiR7U83ZIzQXCGy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417437214034-krm3vkocjg1k70u18cca7i836dalon7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

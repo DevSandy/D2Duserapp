@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iscript.d2duserapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".appliance" />
+        <activity android:name=".courier_package" />
+        <activity android:name=".carwash" />
+        <activity android:name=".car_service" />
+        <activity android:name=".fruitstorecontent" />
+        <activity android:name=".fruitstore" />
+        <activity
+            android:name=".aboutus"
+            android:label="About" />
+        <activity
+            android:name=".privacy_policy"
+            android:label="Privacy Policy" />
+        <activity
+            android:name=".contactus"
+            android:label="Reach us here..." />
+        <activity
+            android:name=".edit_profile"
+            android:label="Edit-Profile" />
+        <activity android:name=".Cart" />
+        <activity android:name=".grocerylistactivity" />
+        <activity android:name=".Storecontent" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="Search..." />
+        <activity
+            android:name=".groceriesstore"
+            android:label="Grocery Stores" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".VerifyPhoneActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

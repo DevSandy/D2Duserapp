@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contactus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <androidx.cardview.widget.CardView
+android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="D2D Services"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif"></TextView>
+                <TextView
+                    android:textSize="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#23 ,First floor \n Manjunatha building \n Hessargatta main road \n Chikkabanavara \n Bengaluru - 90"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/dcall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:elevation="20dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/call"></ImageView>
+                <ImageView
+                    android:id="@+id/dmsg"
+                    android:layout_margin="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:elevation="20dp"
+                    android:src="@drawable/gmail">
+                </ImageView>
+                <ImageView
+                    android:id="@+id/dwp"
+                    android:layout_margin="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:elevation="20dp"
+                    android:src="@drawable/whatsapp">
+                </ImageView>
+                <ImageView
+                    android:id="@+id/dloc"
+                    android:layout_margin="10dp"
+                    android:layout_width="60dp"
+                    android:elevation="20dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/location">
+                </ImageView>
+            </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Developers Info"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AccelStack Infotech Pvt Ltd"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif"></TextView>
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="#21 ,First floor \n Manjunatha building \n Hessargatta main road \n Chikkabanavara \n Bengaluru - 90"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:elevation="20dp"
+                        android:id="@+id/mcall"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/call"></ImageView>
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:id="@+id/mmail"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:elevation="20dp"
+                        android:src="@drawable/gmail">
+                    </ImageView>
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:layout_width="60dp"
+                        android:elevation="20dp"
+                        android:id="@+id/mwp"
+
+                        android:layout_height="60dp"
+                        android:src="@drawable/whatsapp">
+                    </ImageView>
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:id="@+id/mloc"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:elevation="20dp"
+                        android:src="@drawable/location">
+                    </ImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

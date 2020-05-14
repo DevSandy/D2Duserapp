@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:touchscreenBlocksFocus="true"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/recyclerview"
+        android:orientation="horizontal">
+    </androidx.recyclerview.widget.RecyclerView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#CFCCCC"></View>
+    <LinearLayout
+        android:id="@+id/linearcards"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/groceriescard"
+                android:layout_width="85dp"
+                android:clickable="true"
+                android:layout_margin="2dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="56dp"
+                        android:src="@drawable/groceries"></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:textColor="#000000"
+                        android:layout_height="wrap_content"
+                        android:text="Groceries \n"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="#CFCCCC"></View>
+            <androidx.cardview.widget.CardView
+                android:layout_width="85dp"
+                android:clickable="true"
+                android:id="@+id/fruitcard"
+                android:layout_margin="2dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:src="@drawable/fruitsandvej"
+                        android:layout_height="65dp"></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Fruits and Vegitables"
+                        android:textColor="#000000"
+
+                        android:singleLine="false"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="#CFCCCC"></View>
+            <androidx.cardview.widget.CardView
+                android:layout_width="85dp"
+                android:clickable="true"
+                android:layout_margin="2dp"
+                android:id="@+id/carcard"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:src="@drawable/carservice"
+                        android:layout_height="65dp"></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:textColor="#000000"
+
+                        android:layout_height="wrap_content"
+                        android:text="Car Service \n"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="#CFCCCC"></View>
+            <androidx.cardview.widget.CardView
+                android:layout_width="85dp"
+                android:clickable="true"
+                android:id="@+id/couriercard"
+                android:layout_margin="2dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:src="@drawable/courier"
+                        android:layout_height="65dp"></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:textColor="#000000"
+
+                        android:layout_height="wrap_content"
+                        android:text="Courier and packing"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="85dp"
+                android:clickable="true"
+                android:layout_margin="2dp"
+                android:id="@+id/appliancecard"
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:src="@drawable/electric"
+                        android:layout_height="65dp"></ImageView>
+                    <TextView
+                        android:textSize="10dp"
+
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+
+                        android:text="Appliance and Electrical work"
+                        android:singleLine="false"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="#CFCCCC"></View>
+            <androidx.cardview.widget.CardView
+                android:layout_width="85dp"
+                android:clickable="true"
+                android:layout_margin="2dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:src="@drawable/mover"
+                        android:layout_height="65dp"></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:textColor="#000000"
+
+                        android:layout_height="wrap_content"
+                        android:text="Packers and Movers"
+                        android:singleLine="false"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="#CFCCCC"></View>
+            <androidx.cardview.widget.CardView
+                android:layout_width="85dp"
+                android:clickable="true"
+                android:layout_margin="2dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:src="@drawable/electrician"
+                        android:layout_height="65dp"></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:textSize="10dp"
+                        android:textColor="#000000"
+
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="Electrician and Plumber"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="#CFCCCC"></View>
+            <androidx.cardview.widget.CardView
+                android:layout_width="85dp"
+                android:clickable="true"
+                android:layout_margin="2dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:src="@drawable/carpenter"
+                        android:layout_height="65dp"></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:textColor="#000000"
+                        android:layout_height="wrap_content"
+                        android:text="Carpenter and Civil works"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#CFCCCC"></View>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:text="Recomendations"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif"
+            android:layout_height="match_parent"></TextView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_height="510dp"></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
+</ScrollView>
